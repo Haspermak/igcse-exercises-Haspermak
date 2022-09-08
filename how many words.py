@@ -1,0 +1,6 @@
+sentence = input("input a sentence with punctuation: ")
+replacement = sentence.replace(".", " ")
+replacement2 = replacement.replace("!", " ")
+replacement3 = replacement2.replace("?", " ")
+number3 = replacement3.count(" ")
+print(number3)
