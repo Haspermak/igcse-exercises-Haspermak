@@ -1,7 +1,7 @@
-
+import math
 numbers = []
 highest = 0
-lowest = 9999999999999999999999999999999999999
+lowest = math.inf
 dtw = 0
 doesnwork = 0
 pp = 0
